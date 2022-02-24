@@ -1,0 +1,122 @@
+#container{position:absolute; top:0%; left:0%; width:100%; height:1200px;}
+header{position:absolute; top:0%; left:0%; width:100%; height:11%; background-color:#850b13; }
+#slider{position:absolute; top:11%; left:0%; width:100%; height:43%; }
+#sectionaccueil{position:absolute; top:54%; left:0%; width:100%; height:38%; background-image:url("../image/sectionback.png");}
+footer{position:absolute; top:92%; left:0%; width:100%; height:8%;background: rgb(115,9,16); /* Old browsers */background: -moz-linear-gradient(top, rgba(115,9,16,1) 44%, rgba(62,5,9,1) 100%, rgba(109,0,25,1) 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, rgba(115,9,16,1) 44%,rgba(62,5,9,1) 100%,rgba(109,0,25,1) 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, rgba(115,9,16,1) 44%,rgba(62,5,9,1) 100%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#730910', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */}
+li{display:inline-block;}
+#Menutop{position:absolute; top:67%; left:0%; width:100%; height:30%;  overflow:hidden;
+background: rgb(69,72,77);
+background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); 
+background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); 
+}
+#Menutop ul { position:absolute; top:-42%;  width:60%; height:100%; left:20%;}
+#Menutop ul li{  width:19%; height:100%; text-align:center; padding-top:1%;}
+#Menutop ul li:hover{ background-color:#850b13; }
+#Menubuttom{position:absolute; top:30%; left:0%; width:100%; height:40%;  overflow:hidden;}
+a{ color:rgba(255,255,255,1.00); }
+#Menubuttom ul { position:absolute; top:-38%;  width:60%; height:100%; left:20%;}
+#Menubuttom ul li{  width:19%; height:100%; text-align:center; padding-top:1%;}
+#Menubuttom ul li:hover{ background-color:#850b13; }
+/************************----------------Home-------------*/
+
+/****/
+#slider img {width:100%; height:100%;} 
+/*****/
+#sectionaccueil #artdiv { position:absolute; top:0%; left:10%; width:80%; height:100%;}
+#sectionaccueil #artdiv article{ width:30%; margin-left:2%; height:100%; float:left;}
+#sectionaccueil #artdiv article h2{ width:80%;color:rgba(187,149,84,1.00); text-align:center; margin-left:10%; margin-top:-128%; border:1px solid black;  border-radius:5px; height:10%;
+background: rgb(64,59,53); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(64,59,53,1) 0%, rgba(91,83,75,1) 40%, rgba(90,83,74,1) 61%, rgba(64,59,53,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403b35', endColorstr='#403b35',GradientType=1 ); /* IE6-9 */}
+#sectionaccueil #artdiv article div{ background-color:rgba(27,0,0,0.76);  width:100%; border:1px solid #3f211b; height:85%; margin-top:10%;}
+#sectionaccueil #artdiv article div img{ width:90%; border:2px solid #2e2a27; height:40%; margin-left:5%; margin-top:8%;}
+#sectionaccueil #artdiv article div p{ width:95%; height:45%;  margin-top:2%; margin-left:2.5%; color:rgba(187,149,84,1.00);}
+
+
+/***************************-----------------The Restaurant--------------------------****************/
+#sectionRest{position:absolute; top:11%; left:0%; width:100%; height:81%; background-image:url(../image/sectionback.png)}
+#sectionRest #sectdiv{ position:absolute; top:0%; left:15%; width:70%; height:99%;}
+#sectionRest #sectdiv article{ position:absolute; top:0%; left:0%; width:65%; float:left; height:100%; background-color:#e3e0dd;}
+#sectionRest #sectdiv article h2{ position:absolute; top:1%; left:5%; width:90%;height:100%;}
+#sectionRest #sectdiv article img{ position:absolute; top:7%; left:5%; width:90%;  height:30%;border:1px solid black;}
+#sectionRest #sectdiv article p{ position:absolute; top:40%; left:5%; width:90%; }
+#sectionRest #sectdiv #aside1{ position:absolute; top:2%; left:68%; width:30%; height:40%;}
+#sectionRest #sectdiv #aside1 div{ background-color:rgba(27,0,0,0.76);  width:100%; border:1px solid #3f211b; height:90%; margin-top:10%;}
+#sectionRest #sectdiv #aside1 h2{ width:80%; text-align:center; margin-left:10%;color:#cec09a; margin-top:-130%; border:1px solid black; border-radius:5px; height:10%;
+background: rgb(64,59,53); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(64,59,53,1) 0%, rgba(91,83,75,1) 40%, rgba(90,83,74,1) 61%, rgba(64,59,53,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403b35', endColorstr='#403b35',GradientType=1 ); /* IE6-9 */}
+#sectionRest #sectdiv #aside1 div img{width:90%; height:40%; margin-top:7%;margin-left:4%; border:3px solid rgba(165,164,162,0.78);}
+
+#sectionRest #sectdiv #aside2{ position:absolute; top:45%; left:68%; width:30%; height:40%;}
+#sectionRest #sectdiv #aside2 div{ background-color:rgba(27,0,0,0.76);  width:100%; border:1px solid #3f211b; height:90%; margin-top:10%;}
+#sectionRest #sectdiv #aside2 h2{ width:80%; text-align:center; margin-left:10%;color:#cec09a; margin-top:-130%; border:1px solid black; border-radius:5px; height:10%;
+background: rgb(64,59,53); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(64,59,53,1) 0%, rgba(91,83,75,1) 40%, rgba(90,83,74,1) 61%, rgba(64,59,53,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403b35', endColorstr='#403b35',GradientType=1 ); /* IE6-9 */}
+
+#sectionRest #sectdiv #aside2 #tableresrevation{width:100%; height:80%; position:absolute; top:15%; color:#FFFFFF;}
+#sectionRest #sectdiv #aside2 #tableresrevation input,textarea{background-color:#dbd8ce; border:none; border-radius: 5px;}
+#sectionRest #sectdiv #aside2 #tableresrevation #subbtn{ color:#cec09a; width:80%; height:100%; background-color:rgba(106,4,4,1.00); border-radius:5px; text-align:center; padding-top:1%; text-decoration:none; color:rgba(204,175,126,1.00); font-weight:bold;  }
+#sectionRest #sectdiv #aside2 #tableresrevation #subbtn:hover{background-color:rgba(106,4,4,0.72);color:rgba(187,149,84,1.00);  }
+
+
+/*********************************----------------------- galerie--------------------------------**********************/
+#sectiontour{position:absolute; top:11%; left:0%; width:100%; height:81%; background-image:url(../image/sectionback.png)}
+#sectiontour #tourdiv{position:absolute; top:1%; left:22%; width:60%; height:97%;  }
+#sectiontour #tourdiv img{border:3px solid #cec09a} 
+#sectiontour #tourdiv #imgplayer{position:absolute; top:0%;  width:100%; height:100%; overflow: auto; }
+#sectiontour #tourdiv #imgplayer img{ width:30%; height:20%; margin-bottom: 2%;  margin-left: 2%; }
+ #menuafficher{width:100%; height:100%; position:fixed; top:0%; left:0%; background-color:black;}
+ #menuafficher img{width:80%; height:80%; position:absolute; top:10%; left:10%;}
+ #menuafficher #closeimg{width:4%; height:7%; position:absolute; top:0; left:93%; cursor: pointer;}
+ #menuafficher #closeimg img{width:100%; height:100%; }
+/*************************************-----------Menu-----------------**********************************/
+#sectionmenu{position:absolute; top:11%; left:0%; width:100%; height:81%; background-image:url(../image/sectionback.png)}
+#sectionmenu #menudiv{position:absolute; top:2%; left:13%; width:80%; height:100%; overflow: auto; }
+#sectionmenu #menudiv img{width:45%; height:30%; float:left; margin-right:4%; margin-bottom:3%;}
+
+
+/*********************-------------Contact----------------------------------******************************/
+#sectioncontact{position:absolute; top:11%; left:0%; width:100%;color:#cec09a;  height:81%; background-image:url(../image/sectionback.png)}
+#sectioncontact #Contactdiv{position:absolute; top:0%; left:13%; width:80%; height:100%; background-color:rgba(27,0,0,0.76); }
+#sectioncontact #Contactdiv h2{position:absolute; top:0%; left:4%; width:20%; height:5%; color:#cec09a; font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif; font-size:30px; }
+#sectioncontact #Contactdiv #contForm{position:absolute; top:10%; left:4%; width:50%; height:40%; }
+#sectioncontact #Contactdiv #contForm table{position:absolute; top:0%;  width:100%; height:100%; }
+#sectioncontact #Contactdiv #contForm table input{ width:90%; height:50%; border-radius: 5px; background-color:#dbd8ce; border:none; }
+#sectioncontact #Contactdiv #contForm table textarea{ width:90%; height:70%; }
+#sectioncontact #Contactdiv #contForm #envbtn{background-color:#67080e; border:none; color:#cec09a; width:50%; height:100%; border-radius:5px; font-weight:bold;}
+#sectioncontact #Contactdiv #restinfos{position:absolute; top:10%; left:55%; width:40%; height:40%;  }
+#sectioncontact #Contactdiv #map{position:absolute; top:55%; left:4%; width:91%; height:40%;  }
+/***/
+#sectioncontact #Contactdiv #restinfos div{position:absolute; top:10%; left:10%; width:80%; height:60%; border:1px solid black;background-color:#dbd8ce; }
+#sectioncontact #Contactdiv #restinfos div h3{margin-top:10%; color:rgba(45,45,45,1.00); width:200px;}
+#sectioncontact #Contactdiv #restinfos div b{ color:#BB9E4F;}
+#sectioncontact #Contactdiv #restinfos h2{position:absolute; top:-2%; left:26%; width:50%; height:10%; text-align:center; border-radius:5px; height:10%;
+background: rgb(64,59,53); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(64,59,53,1) 0%, rgba(91,83,75,1) 40%, rgba(90,83,74,1) 61%, rgba(64,59,53,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(64,59,53,1) 0%,rgba(91,83,75,1) 40%,rgba(90,83,74,1) 61%,rgba(64,59,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403b35', endColorstr='#403b35',GradientType=1 ); /* IE6-9 */}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
